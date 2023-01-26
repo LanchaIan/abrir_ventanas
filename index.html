@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventanas menu</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <div>
+            <label for="">Esta es la ventana principal</label>
+            <br><br>
+            <button class="boton" id="boton_1" onclick="abrirventana1('ventana1.html')" onmouseover="entra('boton_1')" onmouseout="sale('boton_1')">ABRIR VENTANA SIN CARACTERÍSTICAS UNA SOLA VEZ</button>
+            <br><br>
+            <button class="boton" id="boton_2" onclick="abrirventana2('ventana1.html','ventana2.html','ventana3.html')" onmouseover="entra('boton_2')" onmouseout="sale('boton_2')">ABRIR VENTANA SIN CARACTERÍSTICAS VARIAS VECES</button>
+            <br><br>
+            <button class="boton" id="boton_3" onclick="abrirventana3('ventana1.html')" onmouseover="entra('boton_3')" onmouseout="sale('boton_3')">ABRIR VENTANA CON CARACTERÍSTICAS</button>
+            <br><br>
+            <button class="boton" id="boton_4" onclick="abrirventana4('ventana1.html')" onmouseover="entra('boton_4')" onmouseout="sale('boton_4')">ABRIR VENTANA CON MÁS CARACTERÍSTICAS</button>
+            <br><br>
+            <button class="boton" id="boton_5" onclick="abrirventana5('ventana1.html')" onmouseover="entra('boton_5')" onmouseout="sale('boton_5')">ABRIR VENTANA A PANTALLA COMPLETA</button>
+            <br><br>
+            <button class="boton" id="boton_4" onclick="abrirventana6('ventana1.html')" onmouseover="entra('boton_6')" onmouseout="sale('boton_6')">BOTÓN CERRAR VENTANAS, se cerrrán las ventanas abiertas</button>
+            <br><br>
+        </div>
+    </div>
+</body>
+</html>
